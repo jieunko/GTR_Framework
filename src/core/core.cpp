@@ -6,9 +6,8 @@
 
 #include "../gfx/gfx.h" //check errors
 #include "../gfx/texture.h" //??
-#include "../utils/utils.h" //cleanPath
-
-#ifdef WIN32
+#include "../utils/utils.h" //cleanPath dd
+#ifdef WIN32  
 	#include <Commdlg.h>
 	#include <atlstr.h>
 	#include <windows.h> //time
